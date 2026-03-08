@@ -1,0 +1,22 @@
+name: Versus
+version: '${project.version}'
+main: me.robomonkey.versus.Versus
+prefix: Versus
+api-version: 1.21
+authors: [ robomonkey ]
+description: Dueling optimized for Semi-Vanilla servers and casual fun.
+softdepend: [ PlaceholderAPI, ItemsAdder ]
+
+commands:
+  duel:
+    description: idk
+  arena:
+    description: Create, edit, and delete dueling arenas.
+  1v1:
+    description: Join the 1v1 matchmaking queue
+  1v1cancel:
+    description: Leave the 1v1 queue
+  spectate:
+    description: Spectate a player in a duel.
+  versus:
+    description: Configure Versus.
